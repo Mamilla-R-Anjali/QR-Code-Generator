@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+#here{
+    text-align: right;
+    background-color: antiquewhite;
+}
+#header{
+    text-align: center;
+}
+body {
+    background: linear-gradient(to left, orange, lightpink, lightblue);
+}
+
+.right{
+    text-align: center;
+}
+span{
+    text-decoration-color: bisque;
+
+}
+#left{
+    text-align: center;
+    width: 100px;
+}
+form input{
+    color: #000;
+    width: 200px;
+    height: 50px;
+}
+#qrtext {
+    width: 200px;
+    height: 30px;
+    
+    padding: 20px;
+
+
+    border: 10px solid orange;
+    margin: 40px;
+  }
+#img{
+    margin: 10px;
+    text-align: center;
+  }

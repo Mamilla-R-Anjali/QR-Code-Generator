@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=100.0">
+    <!-- The below is to link the css to this html-->
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator-By: Mamilla R Anjali</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1 id="header"> <STRONG>Welcome to QR Code Generator </STRONG></h1>
+        </header>
+        <main>
+            <span id="i1"><i> Here you can easily create the QR Code of the website you want</i> </span>
+            <section>
+                <p><u><strong>How it works:</strong></u></p>
+                <ul>
+                    <li> <p>Just enter the url of the website to get the QR Code</p></li>
+                    <li> <p>Click on the QR Code Generator Button to generate the QR Code instantly</p></li>
+                </ul>
+               
+            </section>
+        </main>
+        <br/>
+        <form class="right" onsubmit="handleSubmit(event)">
+            <label for ="qrtext"> QR Code Generator:</label>
+            <input type="text" placeholder="Type your input here"  id="qrtext">
+            <br/>
+            <button id="left" type="submit">
+                Generate QR
+            </button>
+        </form>
+        <div id="img">
+            <img src="" id="qrimage">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
